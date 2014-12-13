@@ -3,51 +3,87 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-shelley/frankenstein</dc:identifier>
 		<dc:date>2014-05-25T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">2014-12-13T06:38:07Z</meta>
+		<meta property="dcterms:modified">2015-02-06T02:09:09Z</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url:homepage" refines="#publisher">https://standardebooks.org</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url:homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="epub/text/unlicense.xhtml" rel="cc:license"/>
 		<link href="epub/onix.xml" rel="onix-record"/>
 		<dc:title id="title">Frankenstein</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description>DESCRIPTION</dc:description>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
-		<meta property="se:url:wikipedia">WIKILINK</meta>
+		<meta property="file-as" refines="#title">Frankenstein</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or, the Modern Prometheus</dc:title>
+		<meta property="file-as" refines="#subtitle">Or, the Modern Prometheus</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Frankenstein, or the Modern Prometheus</dc:title>
+		<meta property="file-as" refines="#fulltitle">Frankenstein, or the Modern Prometheus</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Science fiction</dc:subject>
+		<dc:subject id="subject-2">Horror tales</dc:subject>
+		<dc:subject id="subject-3">Gothic fiction (Literary genre) </dc:subject>
+		<dc:subject id="subject-4">Scientists -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Monsters -- Fiction </dc:subject>
+		<dc:subject id="subject-6">Frankenstein, Victor (Fictitious character) -- Fiction </dc:subject>
+		<dc:subject id="subject-7">Frankenstein's monster (Fictitious character) -- Fiction </dc:subject>
+		<meta property="meta-auth" refines="#subject-1">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="meta-auth" refines="#subject-2">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="meta-auth" refines="#subject-3">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="meta-auth" refines="#subject-4">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="meta-auth" refines="#subject-5">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="meta-auth" refines="#subject-6">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="meta-auth" refines="#subject-7">http://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<dc:description id="description">A tragic scientist creates a monster in his laboratory.</dc:description>
+		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;Mary Shelley (then Godwin) and Percy Bysshe Shelley were visiting their friend Lord Byron in Geneva one rainy summer.  With the weather against them, they decided to spend their time writing ghost stories for each other.  &lt;i&gt;Frankenstein&lt;/i&gt; is Mary Shelley&amp;rsquo;s submission to their contest, later published anonymously in 1818.&lt;/p&gt;
+			&lt;p&gt;Victor Frankenstein, a strange but brilliant scientist, discovers a method of imparting life to inanimate matter.  The Monster is thus born: a hideous, 8-foot-tall creature of muscle, speed, and intellect.  Frankenstein&amp;rsquo;s rejection of his appalling creation sends it into a spiral of despair, and Frankenstein&amp;rsquo;s life is never the same.&lt;/p&gt;
+			&lt;p&gt;Considered by many to be the first science fiction novel, &lt;i&gt;Frankenstein&lt;/i&gt; is a powerful narrative that explores complex themes of belonging, morality, and the consequences of the power over life and death.&lt;/p&gt;
+		</meta>
+		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://www.gutenberg.org/ebooks/42324</dc:source>
+		<dc:source>https://archive.org/stream/ghostseer01schiuoft</dc:source>
+		<meta property="se:word-count">78052</meta>
+		<meta property="se:url.wikipedia">https://en.wikipedia.org/wiki/Frankenstein</meta>
 		<dc:creator id="author">Mary Shelley</dc:creator>
-		<meta property="file-as" refines="#author">SORT</meta>
-		<meta property="se:url:wikipedia" refines="#author">WIKILINK</meta>
+		<meta property="file-as" refines="#author">Shelley, Mary</meta>
+		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
+		<meta property="se:url.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">CONTRIB1</dc:contributor>
-		<meta property="file-as" refines="#translator">CONTRIB1SORT</meta>
-		<meta property="se:url:wikipedia" refines="#translator">WIKILINK</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url:wikipedia" refines="#artist">WIKILINK</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
+		<dc:contributor id="preface">Percy Bysshe Shelley</dc:contributor>
+		<meta property="file-as" refines="#preface">Shelley, Percy Bysshe</meta>
+		<meta property="se:url.wikipedia" refines="#preface">https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley</meta>
+		<meta property="role" refines="#preface" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
+		<meta property="file-as" refines="#artist">Courbet, Gustave</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Jean Désiré Gustave Courbet</meta>
+		<meta property="se:url.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gustave_Courbet</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url:homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url:homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">http://http://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
@@ -59,21 +95,83 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/logo.png" id="logo.png" media-type="image/png"/>
+		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-4.xhtml" id="chapter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-5.xhtml" id="chapter-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-8.xhtml" id="chapter-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-9.xhtml" id="chapter-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-10.xhtml" id="chapter-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-11.xhtml" id="chapter-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-12.xhtml" id="chapter-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-13.xhtml" id="chapter-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-14.xhtml" id="chapter-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-15.xhtml" id="chapter-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-16.xhtml" id="chapter-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-17.xhtml" id="chapter-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-18.xhtml" id="chapter-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-19.xhtml" id="chapter-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-20.xhtml" id="chapter-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-21.xhtml" id="chapter-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-22.xhtml" id="chapter-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-23.xhtml" id="chapter-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-24.xhtml" id="chapter-24.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-1.xhtml" id="letter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-2.xhtml" id="letter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-3.xhtml" id="letter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/letter-4.xhtml" id="letter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/unlicense.xhtml" id="unlicense.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="introduction.xhtml"/>
+		<itemref idref="preface.xhtml"/>
 		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="letter-1.xhtml"/>
+		<itemref idref="letter-2.xhtml"/>
+		<itemref idref="letter-3.xhtml"/>
+		<itemref idref="letter-4.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
+		<itemref idref="chapter-2.xhtml"/>
+		<itemref idref="chapter-3.xhtml"/>
+		<itemref idref="chapter-4.xhtml"/>
+		<itemref idref="chapter-5.xhtml"/>
+		<itemref idref="chapter-6.xhtml"/>
+		<itemref idref="chapter-7.xhtml"/>
+		<itemref idref="chapter-8.xhtml"/>
+		<itemref idref="chapter-9.xhtml"/>
+		<itemref idref="chapter-10.xhtml"/>
+		<itemref idref="chapter-11.xhtml"/>
+		<itemref idref="chapter-12.xhtml"/>
+		<itemref idref="chapter-13.xhtml"/>
+		<itemref idref="chapter-14.xhtml"/>
+		<itemref idref="chapter-15.xhtml"/>
+		<itemref idref="chapter-16.xhtml"/>
+		<itemref idref="chapter-17.xhtml"/>
+		<itemref idref="chapter-18.xhtml"/>
+		<itemref idref="chapter-19.xhtml"/>
+		<itemref idref="chapter-20.xhtml"/>
+		<itemref idref="chapter-21.xhtml"/>
+		<itemref idref="chapter-22.xhtml"/>
+		<itemref idref="chapter-23.xhtml"/>
+		<itemref idref="chapter-24.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="unlicense.xhtml"/>
 	</spine>
 </package>
-
