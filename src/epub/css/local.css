@@ -51,7 +51,7 @@ section[epub|type~="epigraph"] blockquote{
 	max-width: 50%;
 }
 
-p[epub|type~="se:letter:dateline"]{
+p[epub|type~="se:letter.dateline"]{
 	text-align: right;
 }
 
