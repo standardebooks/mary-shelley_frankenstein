@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-shelley/frankenstein</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2015-05-12T00:01:00Z</meta>
+		<meta property="dcterms:modified">2015-05-21T05:43:51Z</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
@@ -58,16 +58,19 @@
 		<meta property="file-as" refines="#author">Shelley, Mary</meta>
 		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061063.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
 		<dc:contributor id="preface">Percy Bysshe Shelley</dc:contributor>
 		<meta property="file-as" refines="#preface">Shelley, Percy Bysshe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#preface">https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley</meta>
+		<meta property="se:url.authority.nacoaf" refines="#preface">http://id.loc.gov/authorities/names/n79054060.html</meta>
 		<meta property="role" refines="#preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
 		<meta property="file-as" refines="#artist">Courbet, Gustave</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Jean Désiré Gustave Courbet</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gustave_Courbet</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80057228.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
