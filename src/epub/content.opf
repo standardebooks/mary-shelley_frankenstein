@@ -57,17 +57,17 @@
 		<dc:creator id="author">Mary Shelley</dc:creator>
 		<meta property="file-as" refines="#author">Shelley, Mary</meta>
 		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
-		<meta property="se:url.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
 		<dc:contributor id="preface">Percy Bysshe Shelley</dc:contributor>
 		<meta property="file-as" refines="#preface">Shelley, Percy Bysshe</meta>
-		<meta property="se:url.wikipedia" refines="#preface">https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#preface">https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley</meta>
 		<meta property="role" refines="#preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
 		<meta property="file-as" refines="#artist">Courbet, Gustave</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Jean Désiré Gustave Courbet</meta>
-		<meta property="se:url.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gustave_Courbet</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gustave_Courbet</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
