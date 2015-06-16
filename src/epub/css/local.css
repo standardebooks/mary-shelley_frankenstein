@@ -83,3 +83,7 @@ section[epub|type~="dedication"] p{
 	text-align: center;
 	text-indent: 0;
 }
+
+abbr.name{
+	white-space: nowrap;
+}
