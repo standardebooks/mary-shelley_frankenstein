@@ -51,6 +51,16 @@ section[epub|type~="epigraph"] blockquote{
 	max-width: 50%;
 }
 
+*[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+*[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+
 p[epub|type~="se:letter.dateline"]{
 	text-align: right;
 }
