@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-shelley/frankenstein</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2015-11-24T05:42:29Z</meta>
+		<meta property="dcterms:modified">2015-12-04T07:44:24Z</meta>
 		<dc:rights>Public domain; see the Unlicense included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -52,6 +52,7 @@
 		<dc:source>http://www.gutenberg.org/ebooks/42324</dc:source>
 		<dc:source>https://archive.org/stream/ghostseer01schiuoft</dc:source>
 		<meta property="se:word-count">78052</meta>
+		<meta property="se:reading-ease.flesch">64.75</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Frankenstein</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-shelley_frankenstein</meta>
 		<dc:creator id="author">Mary Shelley</dc:creator>
@@ -61,6 +62,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061063.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="preface">Percy Bysshe Shelley</dc:contributor>
 		<meta property="file-as" refines="#preface">Shelley, Percy Bysshe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#preface">https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley</meta>
