@@ -4,7 +4,7 @@
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-shelley/frankenstein</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
 		<meta property="dcterms:modified">2015-12-23T06:24:09Z</meta>
-		<dc:rights>Public domain; see the Unlicense included at the end of this ebook.</dc:rights>
+		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
@@ -137,7 +137,7 @@
 		<item href="text/letter-3.xhtml" id="letter-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/letter-4.xhtml" id="letter-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/unlicense.xhtml" id="unlicense.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 	</manifest>
 	<spine>
@@ -177,6 +177,6 @@
 		<itemref idref="chapter-24.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
-		<itemref idref="unlicense.xhtml"/>
+		<itemref idref="uncopyright.xhtml"/>
 	</spine>
 </package>
