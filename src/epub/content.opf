@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-shelley/frankenstein</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2016-08-24T16:49:17Z</meta>
-		<meta property="se:revision-number">38</meta>
+		<meta property="dcterms:modified">2016-10-03T20:42:01Z</meta>
+		<meta property="se:revision-number">39</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -28,11 +28,11 @@
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Horror tales</dc:subject>
-		<dc:subject id="subject-3">Gothic fiction (Literary genre) </dc:subject>
+		<dc:subject id="subject-3">Gothic fiction (Literary genre)</dc:subject>
 		<dc:subject id="subject-4">Scientists -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Monsters -- Fiction </dc:subject>
-		<dc:subject id="subject-6">Frankenstein, Victor (Fictitious character) -- Fiction </dc:subject>
-		<dc:subject id="subject-7">Frankenstein's monster (Fictitious character) -- Fiction </dc:subject>
+		<dc:subject id="subject-5">Monsters -- Fiction</dc:subject>
+		<dc:subject id="subject-6">Frankenstein, Victor (Fictitious character) -- Fiction</dc:subject>
+		<dc:subject id="subject-7">Frankenstein's monster (Fictitious character) -- Fiction</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/42324</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/42324</meta>
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/42324</meta>
