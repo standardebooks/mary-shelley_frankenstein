@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-shelley/frankenstein</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2017-07-22T01:09:53Z</meta>
-		<meta property="se:revision-number">51</meta>
+		<meta property="dcterms:modified">2017-07-27T20:43:16Z</meta>
+		<meta property="se:revision-number">52</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,8 +44,8 @@
 		<dc:description id="description">A tragic scientist creates a monster in his laboratory.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Mary Shelley (then Godwin) and Percy Bysshe Shelley were visiting their friend Lord Byron in Geneva one rainy summer.  With the weather against them, they decided to spend their time writing ghost stories for each other.  &lt;i&gt;Frankenstein&lt;/i&gt; is Mary Shelley’s submission to their contest, later published anonymously in 1818.&lt;/p&gt;
-			&lt;p&gt;Victor Frankenstein, a strange but brilliant scientist, discovers a method of imparting life to inanimate matter.  The Monster is thus born: a hideous, 8-foot-tall creature of muscle, speed, and intellect.  Frankenstein’s rejection of his appalling creation sends it into a spiral of despair, and Frankenstein’s life is never the same.&lt;/p&gt;
+			&lt;p&gt;Mary Shelley (then Godwin) and Percy Bysshe Shelley were visiting their friend Lord Byron in Geneva one rainy summer. With the weather against them, they decided to spend their time writing ghost stories for each other. &lt;i&gt;Frankenstein&lt;/i&gt; is Mary Shelley’s submission to their contest, later published anonymously in 1818.&lt;/p&gt;
+			&lt;p&gt;Victor Frankenstein, a strange but brilliant scientist, discovers a method of imparting life to inanimate matter. The Monster is thus born: a hideous, 8-foot-tall creature of muscle, speed, and intellect. Frankenstein’s rejection of his appalling creation sends it into a spiral of despair, and Frankenstein’s life is never the same.&lt;/p&gt;
 			&lt;p&gt;Considered by many to be the first science fiction novel, &lt;i&gt;Frankenstein&lt;/i&gt; is a powerful narrative that explores complex themes of belonging, morality, and the consequences of the power over life and death.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
