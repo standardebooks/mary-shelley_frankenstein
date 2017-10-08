@@ -42,7 +42,6 @@ article{
 	margin: 1em 0;
 }
 
-article > p:first-child,
 article + *{
 	text-indent: 0;
 }
