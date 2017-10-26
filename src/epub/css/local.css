@@ -11,17 +11,17 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-article[epub|type~="z3998:letter"] header{
+blockquote[epub|type~="z3998:letter"] header{
 	margin-top: 2em;
 	margin-bottom: 1em;
 	text-align: right;
 }
 
-article[epub|type~="z3998:letter"] header p{
+blockquote[epub|type~="z3998:letter"] header p{
 	text-indent: 0;
 }
 
-article[epub|type~="z3998:letter"] header p[epub|type~="z3998:salutation"]{
+blockquote[epub|type~="z3998:letter"] header p[epub|type~="z3998:salutation"]{
 	font-style: italic;
 }
 
@@ -30,20 +30,16 @@ footer{
 	text-align: right;
 }
 
-article[epub|type~="z3998:letter"] footer p{
+blockquote[epub|type~="z3998:letter"] footer p{
 	text-indent: 0;
 }
 
-article[epub|type~="z3998:letter"] + p{
+blockquote[epub|type~="z3998:letter"] + p{
 	text-indent: 0;
 }
 
-article{
+blockquote[epub|type~="z3998:letter"]{
 	margin: 1em 0;
-}
-
-article + *{
-	text-indent: 0;
 }
 
 section[epub|type~="epigraph"] blockquote{
