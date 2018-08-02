@@ -12,7 +12,7 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 }
 
 blockquote[epub|type~="z3998:letter"] header{
-	margin-top: 2em;
+	margin-top: 3em;
 	margin-bottom: 1em;
 	text-align: right;
 }
@@ -40,21 +40,6 @@ blockquote[epub|type~="z3998:letter"] + p{
 
 blockquote[epub|type~="z3998:letter"]{
 	margin: 1em 0;
-}
-
-section[epub|type~="epigraph"] blockquote{
-	margin: 5em auto;
-	max-width: 50%;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 
 p[epub|type~="se:letter.dateline"]{
@@ -91,6 +76,53 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-abbr.name{
-	white-space: nowrap;
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
 }
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+}
+/* End full-page epigraphs */
