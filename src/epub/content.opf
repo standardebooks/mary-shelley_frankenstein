@@ -156,9 +156,9 @@
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="introduction.xhtml"/>
 		<itemref idref="preface.xhtml"/>
-		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="dedication.xhtml"/>
 		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="letter-1.xhtml"/>
 		<itemref idref="letter-2.xhtml"/>
 		<itemref idref="letter-3.xhtml"/>
