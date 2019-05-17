@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Frankenstein</dc:title>
 		<meta property="file-as" refines="#title">Frankenstein</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -43,22 +43,27 @@
 		<dc:subject id="subject-5">Monsters -- Fiction</dc:subject>
 		<dc:subject id="subject-6">Frankenstein, Victor (Fictitious character) -- Fiction</dc:subject>
 		<dc:subject id="subject-7">Frankenstein's monster (Fictitious character) -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/42324</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/42324</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/42324</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/42324</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/42324</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/42324</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/42324</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85118629</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85062084</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008020084</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008111358</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008107935</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">Unknown</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">Unknown</meta>
 		<meta property="se:subject">Science Fiction</meta>
 		<dc:description id="description">A tragic scientist creates a monster in his laboratory.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Mary Shelley (then Godwin) and Percy Bysshe Shelley were visiting their friend Lord Byron in Geneva one rainy summer. With the weather against them, they decided to spend their time writing ghost stories for each other. &lt;i&gt;Frankenstein&lt;/i&gt; is Mary Shelley’s submission to their contest, later published anonymously in 1818.&lt;/p&gt;
 			&lt;p&gt;Victor Frankenstein, a strange but brilliant scientist, discovers a method of imparting life to inanimate matter. The Monster is thus born: a hideous, 8-foot-tall creature of muscle, speed, and intellect. Frankenstein’s rejection of his appalling creation sends it into a spiral of despair, and Frankenstein’s life is never the same.&lt;/p&gt;
 			&lt;p&gt;Considered by many to be the first science fiction novel, &lt;i&gt;Frankenstein&lt;/i&gt; is a powerful narrative that explores complex themes of belonging, morality, and the consequences of the power over life and death.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42324</dc:source>
 		<dc:source>https://archive.org/details/ghostseer01schiuoft</dc:source>
