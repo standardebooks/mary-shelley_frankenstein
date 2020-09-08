@@ -5,12 +5,6 @@
 	font-variant: small-caps;
 }
 
-section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
-	display: block;
-	font-size: .75em;
-	font-weight: normal;
-}
-
 blockquote[epub|type~="z3998:letter"] header{
 	margin-top: 3em;
 	margin-bottom: 1em;
