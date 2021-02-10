@@ -58,10 +58,10 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">Unknown</meta>
 		<meta property="se:subject">Science Fiction</meta>
-		<meta id="collection-1" property="belongs-to-collection">The Guardian’s best 100 novels in English (2015)</meta>
+		<meta id="collection-1" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">8</meta>
-		<meta id="collection-2" property="belongs-to-collection">The BBC’s 100 greatest British novels (2015)</meta>
+		<meta id="collection-2" property="belongs-to-collection">The BBC’s 100 Greatest British Novels (2015)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">9</meta>
 		<dc:description id="description">A tragic scientist creates a monster in his laboratory.</dc:description>
