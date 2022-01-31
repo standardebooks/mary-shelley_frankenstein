@@ -6,8 +6,8 @@
 }
 
 blockquote[epub|type~="z3998:letter"] header{
-	margin-top: 3em;
 	margin-bottom: 1em;
+	margin-top: 3em;
 	text-align: right;
 }
 
@@ -82,9 +82,9 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 
 [epub|type~="epigraph"] cite i{
