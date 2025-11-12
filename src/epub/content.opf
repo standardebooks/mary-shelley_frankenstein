@@ -83,9 +83,9 @@
 		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061063</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="preface">Percy Bysshe Shelley</dc:contributor>
 		<meta property="file-as" refines="#preface">Shelley, Percy Bysshe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#preface">https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley</meta>
