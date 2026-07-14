@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Frankenstein, or the Modern Prometheus</dc:title>
 		<meta property="file-as" refines="#fulltitle">Frankenstein, or the Modern Prometheus</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Horror tales</dc:subject>
 		<dc:subject id="subject-3">Gothic fiction (Literary genre)</dc:subject>
