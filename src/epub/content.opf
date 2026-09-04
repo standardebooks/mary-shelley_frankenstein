@@ -40,10 +40,10 @@
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Horror tales</dc:subject>
 		<dc:subject id="subject-3">Gothic fiction (Literary genre)</dc:subject>
-		<dc:subject id="subject-4">Scientists -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Monsters -- Fiction</dc:subject>
-		<dc:subject id="subject-6">Frankenstein, Victor (Fictitious character) -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Frankenstein's monster (Fictitious character) -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Scientists--Fiction</dc:subject>
+		<dc:subject id="subject-5">Monsters--Fiction</dc:subject>
+		<dc:subject id="subject-6">Frankenstein, Victor (Fictitious character)--Fiction</dc:subject>
+		<dc:subject id="subject-7">Frankenstein's monster (Fictitious character)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85118629</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
